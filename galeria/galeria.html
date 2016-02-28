@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Galeria de imagenes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="galeria.js">
+
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style media="screen">
+
+        body {
+           margin:0;
+           padding:0;
+        }
+
+        #content-wrap {
+          margin: 0 auto;
+          width: 600px;
+        }
+        #the-galery {
+          margin: 0 auto;
+        }
+
+        .galery {
+            margin:0 auto;
+            width: 80%;
+        }
+
+        .galery li, .btns-galery li {
+            list-style: none;
+        }
+
+        .btns-galery li {
+           cursor:pointer;
+        }
+
+        .c-visible {
+            display:visible;
+        }
+
+        .c-hidden {
+            display:none;
+        }
+
+        .btns-galery {
+          margin-left: 150px;∫
+          height: 50px;
+          width: 80%;
+        }
+
+        ul {
+           width: 80%;
+           display: inline-block;
+        }
+
+        .btns-galery li {
+          display: inline;
+          margin-left: 1em;
+        }
+
+        h2.h-galery {
+           text-align: center;
+        }
+
+        .b-c-visible {
+            color:blue;
+        }
+        .b-c-hidden {
+            color:grey;
+        }
+
+    </style>
+  </head>
+  <body>
+
+      <div id="content-wrap">
+          <h2 class="h-galery">Galeria de imagenes</h2>
+
+                <div class="galery">
+                    <ul>
+                        <li class="c-visible"><img src="http://lorempixel.com/400/200/sports/1" alt="" /></li>
+                        <li class="c-hidden"><img src="http://lorempixel.com/400/200/sports/2" alt="" /></li>
+                        <li class="c-hidden"><img src="http://lorempixel.com/400/200/sports/3" alt="" /></li>
+                        <li class="c-hidden"><img src="http://lorempixel.com/400/200/sports/7" alt="" /></li>
+                        <li class="c-hidden"><img src="http://lorempixel.com/400/200/sports/5" alt="" /></li>
+                        <li class="c-hidden"><img src="http://lorempixel.com/400/200/sports/6" alt="" /></li>
+                    </ul>
+                </div>
+
+                <div class="btns-galery">
+                </div>
+
+      </div>
+
+
+  </body>
+</html>
